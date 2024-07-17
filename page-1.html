@@ -20,13 +20,15 @@
 <nav class="navbar">
     <a href="#">Home</a>
     <a href="#">Book</a>
+    <a href="#">Services</a>
+    <a href="#">Gallery</a>
     <a href="#">packages</a>
     <a href="#">review</a>
     <a href="#">Contact</a>
 </nav>
 <div class="icons">
     <i class="fas fa-search" id="search-btn"></i>
-    <i class="fas fa-user" id="login-btn"></i>
+    <i class="fas fa-user" id="login-btn" onclick="showlogin()"></i>
     </div>
     <form class="search-bar-container">
         <input type="search" id="search-bar" placeholder="search here.....">
@@ -35,9 +37,9 @@
 
 </header>
 <!--login form container-->
-<div class="login-form-container">
+<div class="login-form-container" id="login-container">
+    <i class="fas fa-times" id="form-close"  onclick=removelogin()></i>
 <form action="">
-    <i class="fas fa-time" id="form-close"></i>
     <h3>login</h3>
     <p><input type="email" class="box" id="email" placeholder="enter your email"></p>
     <p><input type="password"  id="passward" class="box" placeholder="enter your passward"></p>
