@@ -181,6 +181,182 @@ display: none;
 #form-close:hover{
     color:var(--orange);
 }
+section{
+    padding:9%;
+}
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+    padding-top:5cm;
+}
+.heading span{
+    font-size: 2.5rem;
+   background: rgba(255,165,0,.2);
+   color:var(--orange);
+   border-radius: .5rem;
+   padding:2rem 1rem;
+   display:inline-block;}
+
+.heading span.space{
+    background:none;
+    border: none;
+}
+.book .row form{
+    box-sizing: content-box;
+    box-shadow: 0 1rem 2rem rgba(00,0,0,.1);
+    border-radius: 5rem;
+}
+.book .row .image img{
+    box-sizing: content-box;
+    width:60rem;
+    display: inline-block;
+    padding-right:20%;
+}
+.row{
+    display:flex;
+    align-items: center; 
+    
+}
+.row form{
+    width:100%;
+    color: var(--orange);
+}
+.inputbox h3{
+font-size:35px;
+padding-left: 5rem;
+}
+
+.book_now{
+    width:40rem;
+    box-sizing: content-box;
+}
+
+#input1{
+    padding-top: 3rem;
+}
+#input2{
+    padding-bottom:4rem;
+}
+.booked{
+    
+font-size: 70px;
+border-bottom-left-radius: 5rem;
+padding-bottom:1rem;
+padding-left:1rem ;
+
+}
+
+.section{
+    text-align: center;
+    padding: 2.5rem 0;
+    padding-top:5cm;
+}
+.section span{
+   font-size: 2.5rem;
+   background: rgba(255,165,0,.2);
+   color:var(--orange);
+   border-radius: .5rem;
+   display:inline-block;
+   border: solid rgba(255, 94, 0, 0.966) 4px  ;
+}
+.section1 span{
+    font-size: 2.5rem;
+    background: rgba(255,165,0,.2);
+    color:var(--orange);
+    border-radius: .5rem;
+    display:inline-block;
+    border: solid rgba(255, 94, 0, 0.966) 4px  ;
+ }
+.heading1{
+    text-align: center;
+    padding: 0;
+    }
+.heading1{
+        text-align: center;
+        padding: 1.5rem 0;
+ }
+.heading1 span{
+        font-size: 2.5rem;
+       background: rgba(255,165,0,.2);
+       color:var(--orange);
+       border-radius: .5rem;
+       padding:2rem 1rem;
+       display:inline-block;
+    }
+.packages .box-container{
+        display:inline-block;
+        flex-wrap:wrap;
+        gap:2rem;
+    }
+.packages .box-container .box{
+        flex:1 1 30rem;
+        border-radius:.5rem;
+        overflow:hidden;
+        box-shadow:0 1rem 2rem rgba(red, green, blue, alpha)l;
+    }
+.packages .box-container .box img{
+        height:25rem;
+        width:100%;
+        object-fit:cover;
+}
+.packages .box-container .box .content{
+ padding:2rem;
+}
+.packages .box-container .box .content h3{
+    font-size:2rem;
+    color:#333;
+}
+.packages .box-container .box .content h3 i{
+    color: var(--orange);
+}
+.packages .box-container .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding: 1rem 0;
+}
+.packages .box-container .box .content .stars i{
+    font-size:1.7rem;
+    color:var(--orange);
+}
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;}
+.packages .box-container .box .content .price span{
+    color:#666;
+    font-size:1.5rem;
+    text-decoration: line-through;
+}
+.services .box-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.services .box-container .box{
+    flex:1 1 30rem;
+    border-radius:.5rem;
+    padding:1rem;
+    text-align:center;
+}
+.services .box-container .box i{
+    padding:1rem;
+    font-size:5rem;
+    color:var(--orange);
+}
+.services .box-container .box i p{
+    font-size:2.5rem;
+    color:#333;
+}
+.services .box-container .box i h3{
+    font-size:2.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+.services .box-container .box :hover{
+    box-shadow:0 1rem 6rem rgba(red, green, blue, alpha);
+}
+
+
 
 
 /* media queries */
