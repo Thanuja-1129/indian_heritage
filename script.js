@@ -1,4 +1,4 @@
-let searchBtn = document.querySelector('#search-btn');
+
 let searchbar = document.querySelector('.search-bar-container');
 let loginform = document.querySelector('.login-form-container');
 let openlogin = document.querySelector('#login-btn');
@@ -10,15 +10,11 @@ openlogin.addEventListener('click',()=>{
 closelogin.addEventListener('click',()=>{
   loginform.style.top='-120%';
 })
-searchBtn.addEventListener('click',() => {
-  searchBtn.classList.toggle('fa-times');
-  searchbar.classList.toggle('active');
-})
-window.onscroll=()=>{
-  searchBtn.classList.remove('fa-times');
-  searchbar.classList.remove('active');
-}
-
+let searchBtn =document.querySelector("#search-btn");
+let searchBar =document.querySelector('.search-bar-container');
+let formBtn =document.querySelector("#login-btn");
+let loginForm =document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
@@ -29,7 +25,7 @@ searchBar.classList.remove('active');
 menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
   loginForm.classList.remove('active');
-  
+
 }
 
 menu.addEventListener('click' , () =>{
@@ -58,9 +54,6 @@ videoBtn.forEach(btn =>{
       document.querySelector('#video-slider').src = src;
      });
   });
-
-
-
 
 
 
